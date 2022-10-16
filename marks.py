@@ -10,4 +10,4 @@ elif marks > 50 and marks < 60:
 elif marks > 60 and marks < 80:
     print("C")               
 else:
-    print("A")    
+    print("A")  
