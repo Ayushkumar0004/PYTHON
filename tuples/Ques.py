@@ -1,0 +1,12 @@
+tuple1 = (10,20,30,40)
+tuple = (tuple1[1:3])
+print(tuple)
+# count and print occurences of 20
+z=tuple1.count(20)
+print(z)
+user1 = input()
+user2 = input()
+user3 = input()
+user4 = input()
+tuple = (user1,user2,user3,user4)
+print(tuple)
