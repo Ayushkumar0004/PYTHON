@@ -1,4 +1,4 @@
-a = 200
+a = int(input(""))
 
 if a < 500:
     print("A is less than 500")
@@ -6,10 +6,9 @@ if a < 500:
         print("A is less than 300")
     elif a == 200:
         print("A is 200")
+    elif a < 200:print("A is less than 200")  
     else:
-        print("nothing")
-else a < 200:
-    print("A is less than 200")
+        print("nothing") 
     
 
 

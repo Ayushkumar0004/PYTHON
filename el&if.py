@@ -9,4 +9,8 @@ if num%2==0 and num%3==0:
 else:
     print("false")
 
-    #
+a = 5
+def example():
+    print(a)
+example()
+print(a) 
