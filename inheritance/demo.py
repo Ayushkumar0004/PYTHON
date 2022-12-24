@@ -20,6 +20,12 @@
 # with open("demo1.txt") as f:
 #     f.read() #--> example
     #your code goes here
-f = open("demo.txt","r")
-print(f.read(10))
-print(f.tell()) 
+# f = open("demo.txt","r")
+# print(f.read(10))
+# print(f.tell()) 
+f = open("img.jpg","rb")
+# print(f.read())
+f1 = open("img_copy.jpg","wb")
+# print(f.read())
+for i in f:
+    f1.write(i)
