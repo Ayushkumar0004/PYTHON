@@ -5,7 +5,7 @@
 num=int(input("n="))
 
 if num%2==0 and num%3==0:
-    print("TRue")
+    print("True")
 else:
     print("false")
 
